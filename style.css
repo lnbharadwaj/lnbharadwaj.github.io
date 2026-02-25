@@ -67,15 +67,17 @@ nav a:hover {
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 80px 10%;
     background: white;
     color: #222;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
 .hero-content {
-    max-width: 600px;
+    flex: 1.2;
+    max-width: 650px;
 }
 
 .hero h1 {
@@ -83,46 +85,21 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.buttons {
-    margin-top: 20px;
-}
-
-.btn-primary {
-    background: white;
-    color: #1e2a47;
-    padding: 12px 25px;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-right: 15px;
-    font-weight: 600;
-}
-
-.btn-outline {
-    border: 2px solid white;
-    padding: 10px 25px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-}
-
-.btn-primary:hover {
-    background: #e0e0e0;
-}
-
-.btn-outline:hover {
-    background: white;
-    color: #1e2a47;
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
 }
 
 /* PROFILE CARD */
 .profile-card {
+    flex: 0.8;
     background: white;
     color: #1e2a47;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .profile-card img {
@@ -131,6 +108,45 @@ nav a:hover {
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 15px;
+}
+
+.profile-card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* EDUCATION BELOW HERO */
+.education-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.education-spacer {
+    flex: 1.2;
+}
+
+.education-card {
+    flex: 0.8;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.education-card h3 {
+    margin-bottom: 20px;
+}
+
+.edu-item {
+    padding-left: 18px;
+    border-left: 3px solid #0f766e;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.edu-item:last-child {
+    margin-bottom: 0;
 }
 
 /* RESEARCH CARDS */
@@ -154,7 +170,7 @@ nav a:hover {
     transform: translateY(-5px);
 }
 
-/* PUBLICATIONS */
+/* CONFERENCES */
 .pub-list {
     list-style: none;
     padding: 0;
@@ -170,59 +186,4 @@ footer {
     padding: 30px;
     background: #111c34;
     color: white;
-}
-
-.subtitle {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-weight: 500;
-}
-
-.profile-card p {
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-
-/* RIGHT COLUMN STRUCTURE */
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-}
-
-.hero-content {
-    flex: 1.2;
-}
-
-.right-column {
-    flex: 0.8;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-/* EDUCATION CARD */
-.education-card {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-}
-
-.education-card h3 {
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-}
-
-.edu-item {
-    padding-left: 15px;
-    border-left: 3px solid #0f766e;
-    margin-bottom: 15px;
-    font-size: 0.9rem;
-}
-
-.edu-item:last-child {
-    margin-bottom: 0;
 }
