@@ -75,8 +75,8 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.hero-content {
-    flex: 1.2;
+hero-content {
+    flex: 1 1 600px;
     max-width: 650px;
 }
 
@@ -92,6 +92,29 @@ nav a:hover {
 }
 
 /* PROFILE CARD */
+.profile-card {
+    flex: 0 0 320px;          /* fixed width so it doesn't stretch */
+    background: white;
+    color: #1e2a47;
+    padding: 30px 25px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.profile-card img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.profile-card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 /* =========================================
    WORKING PAPERS (LEFT) + EDUCATION (RIGHT)
 ========================================= */
