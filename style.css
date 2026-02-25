@@ -182,3 +182,47 @@ footer {
     font-size: 14px;
     line-height: 1.6;
 }
+
+
+/* RIGHT COLUMN STRUCTURE */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1.2;
+}
+
+.right-column {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* EDUCATION CARD */
+.education-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.education-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.edu-item {
+    padding-left: 15px;
+    border-left: 3px solid #0f766e;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.edu-item:last-child {
+    margin-bottom: 0;
+}
