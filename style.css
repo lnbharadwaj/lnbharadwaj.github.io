@@ -69,8 +69,8 @@ nav a:hover {
     justify-content: space-between;
     align-items: flex-start;
     padding: 80px 10%;
-    background: white;
-    color: #222;
+    background: linear-gradient(135deg, #1e2a47, #283b73);
+    color: white;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -99,7 +99,7 @@ nav a:hover {
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .profile-card img {
