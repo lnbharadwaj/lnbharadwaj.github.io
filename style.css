@@ -71,11 +71,11 @@ nav a:hover {
     padding: 80px 10%;
     background: linear-gradient(135deg, #1e2a47, #283b73);
     color: white;
-    gap: 40px;
-    flex-wrap: wrap;
+    gap: 60px;
+    flex-wrap: nowrap;   /* 🔥 CHANGE THIS */
 }
 
-hero-content {
+.hero-content {
     flex: 1 1 600px;
     max-width: 650px;
 }
