@@ -213,7 +213,8 @@ nav a:hover {
     color: #555;
 }
 
-/* Align Conferences with Working Papers */
-#conferences {
-    padding: 80px 6%;
+/* Conferences alignment fix */
+#conferences .content-wrapper {
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
