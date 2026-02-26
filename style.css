@@ -176,12 +176,38 @@ nav a:hover {
     font-size: 22px;
 }
 
+/* Each degree block */
 .edu-item {
-    margin-bottom: 22px;
-    font-size: 14px;
-    line-height: 1.6;
+    margin-bottom: 28px;
 }
 
 .edu-item:last-child {
     margin-bottom: 0;
+}
+
+/* 1️⃣ Degree – Bold */
+.edu-degree {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+/* 2️⃣ Institution + Year – Normal */
+.edu-institution {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+/* 3️⃣ CGPA */
+.edu-cgpa {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 3px;
+}
+
+/* 4️⃣ Dissertation (if present) */
+.edu-thesis {
+    font-size: 14px;
+    color: #555;
 }
