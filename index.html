@@ -176,7 +176,7 @@
         <!-- RIGHT SIDE -->
         <div class="contact-form">
             <h3>Send a Message</h3>
-            <form action="https://formspree.io/f/mbdawqpp" method="POST">
+            <form id="contact-form" action="https://formspree.io/f/mbdawqpp" method="POST">
 
     <input type="text" name="name" placeholder="Name" required>
 
@@ -197,6 +197,29 @@
         © 2026 Lakhi Narayan Bharadwaj. All rights reserved.
     </div>
 </section>
+    
+<script>
+const form = document.getElementById("contact-form");
 
+form.addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+
+    const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+        alert("Message sent successfully!");
+        form.reset();
+    } else {
+        alert("Oops! Something went wrong.");
+    }
+});
+</script>
+    
 </body>
 </html>
