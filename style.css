@@ -420,16 +420,19 @@ nav ul {
 .contact-container {
     flex-direction: column;
     gap: 40px;
-    padding: 0 8% 60px 8%;
+    padding: 0 20px 60px 20px;
 }
 
 .contact-form {
-    width: 100%;
     flex: none;
+    width: 100%;
+    max-width: 100%;
     padding: 25px;
 }
 
+.contact-form input,
 .contact-form textarea {
-    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
 }
 }
