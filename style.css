@@ -328,17 +328,19 @@ nav a:hover {
 .info-item {
     display: flex;
     align-items: center;
-    gap: 10px;   /* space between icon and text */
+    gap: 10px;   
 }
 
 .info-item p {
-    margin: 0;   /* removes line break spacing */
+    margin: 0;   
 }
 
 .info-icon {
-    font-size: 18px;
+    width: 22px;         
     display: flex;
+    justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
 /* MOBILE */
