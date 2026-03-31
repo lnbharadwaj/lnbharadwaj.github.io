@@ -325,6 +325,22 @@ nav a:hover {
     font-size: 14px;
 }
 
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;   /* space between icon and text */
+}
+
+.info-item p {
+    margin: 0;   /* removes line break spacing */
+}
+
+.info-icon {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
 /* MOBILE */
 
 @media (max-width: 768px) {
