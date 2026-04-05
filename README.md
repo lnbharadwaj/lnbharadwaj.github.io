@@ -2,7 +2,7 @@
 
 ## 🌐 Live Website
 
-https://inbharadwaj.github.io
+https://lnbharadwaj.github.io
 
 ## 📄 About
 
