@@ -145,8 +145,8 @@ nav a:hover {
 }
 
 .profile-card img {
-  width: 130px;
-  height: 130px;
+  width: 2000px;
+  height: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
